@@ -1,5 +1,5 @@
 #plupload 上传组件 预配置
-基于 www.plupload.com/docs/
+基于  [link to plupload!](http://www.plupload.com/)
 
 ###与官方API 完全兼容 的基础上增加:
 初始化参数
