@@ -1,13 +1,13 @@
-#plupload 上传组件 预配置
+# plupload 上传组件 预配置
 基于  [link to plupload!](http://www.plupload.com/)
 
-###与官方API 完全兼容 的基础上增加:
+### 与官方API 完全兼容 的基础上增加:
 初始化参数
 * `autoUpload`: 选择文件后自动上传 默认为false
 * `multipart_params`: 可传object json 或者 返回json 的 function(){} 若为function 每次上传都为运行以拿到最新数据(常用于表单)
 * `Error`: 发生错误都会console.log 错误信息
 
-###示例代码
+### 示例代码
 ```javascript
 var uploader = myPlupload({
 	url: 'http://admin.main.test.hotoem.com/Common/UploadImage?dir=image', 
@@ -57,7 +57,7 @@ var uploader = myPlupload({
 });
 ```
 
-###最小配置
+### 最小配置
 ```javascript
 var uploader = myPlupload({
 	url: 'http://admin.main.test.hotoem.com/Common/UploadImage?dir=image', 
@@ -73,6 +73,6 @@ var uploader = myPlupload({
 });
 ```
 
-###特别说明
+### 特别说明
 如果设定 `autoUpload: false` 的话
 可以通过 `uploader.start()` 启动上传
