@@ -9,7 +9,7 @@ if(window.console == undefined) {
 	if(window.System && System.amdDefine) {
 		define(['jquery', './plupload.full.min.js'], factory);
 	} else {
-		window.myPlupload = factory;
+		window.myPlupload = factory(window.jQuery);
 	}
 }(function ($) {
     return function(options){
